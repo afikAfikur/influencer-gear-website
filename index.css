@@ -1,0 +1,107 @@
+.poppins-thin_primary_font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+.influencer{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+.pre{
+    width: 196px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+}
+.right_{
+    color:white;
+}
+.start{
+    width: 800px;
+    height: 270px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(58, 58, 58, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 140px;
+}
+.pera{
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0px;
+}
+.journy{
+    margin: 0px;
+}
+.cam{
+    margin: 0px;
+    width: 440px;
+    height: 414px;
+    margin-top: 89px;
+    margin-bottom: 100px;
+}
+.first-sec{
+    display: flex;
+    gap: 133px;
+    justify-content: space-between;
+    margin: 0px 180px;
+}
+.logo{
+    margin: 0px;
+}
+.second_sec{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    box-shadow:
+        0 -5px 10px rgba(133, 132, 132, 0.1), /* top shadow */
+        0 5px 10px rgba(133, 132, 132, 0.1);  /* bottom shadow */
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
