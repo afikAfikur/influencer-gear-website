@@ -3,6 +3,24 @@
   font-weight: 100;
   font-style: normal;
 }
+
+.inter-secondery_font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal ;
+  font-style: normal;
+  
+}
+
+.roboto-third_font{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .cart{
     width: 20px;
     height: 20px;
@@ -78,7 +96,15 @@ a{
     height: 414px;
     margin-top: 89px;
     margin-bottom: 100px;
+    
 }
+.camera{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .first-sec{
     display: flex;
     gap: 133px;
@@ -104,6 +130,67 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.popular{
+    font-size: 28px;
+    font-weight:600 ;
+    margin-top: 100px;
+}
+.making{
+    margin: 0px;
+}
+.third_sec{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content:center ;
+    align-items:center ;
+}
+.items{
+    width: auto;
+    height: 476px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content:center;
+    padding: 15px;
+    background: white;
+  border-radius: 15px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+}
+.suv{
+    width: 300px;
+    height: 256px;
+}
+.items_heading{
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.items_price{
+margin: 0px;
+font-size: 24px;
+font-weight: normal;
+}
+.star{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(94, 99, 102, 1);
+}
+.items_pera{
+    margin: 0px;
+    width: 198px;
+    height: 61px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px;
 }
 
 @media  screen and (max-width:576px) {
@@ -155,5 +242,8 @@ a{
     .inline{
         display: inline;
     }
-    
+    .container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
 }
