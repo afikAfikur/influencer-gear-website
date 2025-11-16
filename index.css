@@ -105,3 +105,55 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+@media  screen and (max-width:576px) {
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        margin-bottom:0px;
+        margin-top: 50px;
+        
+    }
+    .influencer{
+       width: 400px;
+    }
+    .navbar{
+        padding: 0px;
+        justify-content: space-evenly;
+        margin-bottom: 22px;
+    }
+    .first-sec{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        gap: 14px;
+    }
+    .start{
+        
+        margin-top: 0px;
+        width: calc(100% - 21px);
+        margin-bottom: 50px;
+        justify-content:center ;
+        align-items: center;
+    }
+    .margin_0{
+        margin: 0px;
+    }
+    .journy{
+        font-size: 32px;
+    }
+    .second_sec{
+        flex-wrap: wrap;
+        gap: 20px;
+        box-shadow: none;
+    }
+    .inline{
+        display: inline;
+    }
+    
+}
